@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pendataan Anggota</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- AOS (Animate on Scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+        
+      background: url('img/bg-animated.gif') no-repeat center center fixed;
+      background-size: cover ;
+      font-family: 'Montserrat', sans-serif;
+      color: rgb(5, 60, 18);
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.7) !important;
+    }
+
+    .social-icons a:hover {
+      color: #0dcaf0;
+      transition: 0.3s;
+    }
+
+    .garis {
+      width: 100px;
+      height: 4px;
+      background: #fff;
+      margin-top: 10px;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 600px;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+
+    .list-group-item {
+      background: transparent;
+      border: none;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light shadow-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#home">
+      <img src="img/logo_ikbm-removebg-preview.png" alt="Logo IKBM" width="50" height="50" class="d-inline-block align-text-top">
+      <strong>IKBM</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav" style="font-size: 0.8em;">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#tentang"><strong>Tentang IKBM</strong></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+            <strong>Comunity-IKBM</strong>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#infoterkini">Info Terkini</a></li>
+            <li><a class="dropdown-item" href="#beritaterkini">Berita Terkini</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#donasi"><strong>Donasi</strong></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownProgram" role="button" data-bs-toggle="dropdown">
+            <strong>Program</strong>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="bulan.html" target="_blank">Program Kerja</a></li>
+            <li><a class="dropdown-item" href="pen-anggota-ikbm.html" target="_blank">Pendataan Anggota IKBM</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#kontak"><strong>Kontak Kami</strong></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="tentang" id="tentang" style="margin-top: 100px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1><strong>Pendataan Anggota</strong></h1>
+        <p class="garis"></p>
+        <p><b>📢 Kami berharap anggota IKBM 📣</b><br>Wajib mengisi formulir Pendataan dengan baik dan benar karena ini akan disimpan sebagai data anggota IKBM.</p>
+        <ul>
+          <li class="list-group-item"><b>Link Pendataan:</b></li>
+          <li class="list-group-item">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <i class="fab fa-google-drive" style="font-size: 36px; color: #0F9D58;"></i>
+              <h2><b><a href="https://docs.google.com/forms/d/e/1FAIpQLSccUrS6k198ZSdK9Sp_z2GrbH0wSV47biAQ4DpHVlsFZ8ppZA/viewform" target="_blank" style="color: white; text-decoration: none;">Link Drive: Pendataan</a></b></h2>
+            </div>
+            <br>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSccUrS6k198ZSdK9Sp_z2GrbH0wSV47biAQ4DpHVlsFZ8ppZA/viewform?embedded=true">Memuat…</iframe>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container text-center">
+    <p>&copy; 2025 IKBM | All Rights Reserved</p>
+    <div class="social-icons mt-2">
+      <a href="https://facebook.com/ikbm" target="_blank" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href="https://instagram.com/ikbm" target="_blank" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="https://wa.me/6281234567890" target="_blank" class="text-white me-3"><i class="fab fa-whatsapp fa-lg"></i></a>
+      <a href="mailto:ikbm@email.com" class="text-white me-3"><i class="fas fa-envelope fa-lg"></i></a>
+      <a href="https://youtube.com/@ikbm" target="_blank" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

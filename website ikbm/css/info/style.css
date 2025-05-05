@@ -1,0 +1,32 @@
+/* content */
+.judul h1 {
+    padding-top: 10rem;
+}
+
+nav ul li a:hover {
+    color: #bcd6fd !important;
+}
+
+hr {
+    width: 1500px;
+    border-top: 1px solid grey;
+}
+
+.isi p {
+    padding-top: 3rem;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.ini {
+    width: 65px;
+    border-top: 1px solid grey;
+}
+
+.oktober {
+    margin-left: 3px;
+}
+
+/* Akhir content */

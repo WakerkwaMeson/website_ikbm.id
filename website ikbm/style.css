@@ -1,0 +1,177 @@
+/* Carousel */
+.carousel-item .caption {
+    margin-top: -300px;
+}
+
+/* .carousel-caption a {
+    text-decoration: none;
+    color: white;
+} */
+/* Akhir Carousel */
+
+
+nav ul li a:hover {
+    color: #0868f8 !important;
+    font-size: 13px;
+    background-color: #fff !important;
+    border-radius: 5px;
+}
+
+nav ul li a:active {
+    font-style: italic;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(img/gambar-2.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+section {
+    min-height: 600px;
+    padding-top: 2.5rem;
+}
+
+
+
+hr {
+    width: 200px;
+    margin: auto;
+    border-top: 3px solid grey;
+    margin-bottom: 20px;
+}
+
+
+
+
+.tentang {
+    background-color: #f7eeff;
+}
+
+.garis {
+    width: 5px;
+    height: 38px;
+    background-color: #435add;
+    margin-top: -48px;
+}
+
+
+
+.beritaterkini {
+    background-color: #f7eeff;
+}
+
+
+
+.card {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .3);
+}
+
+.icon-donasi {
+    color: #0d6efd;
+}
+
+.gaserbu img {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.gaserbu p {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+
+/* store */
+.store {
+    background-color: #f7eeff;
+}
+
+.img-thumbnaill:hover {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(22, 6, 245, 0.164);
+    border: 1px solid blue;
+}
+
+/* akhir store */
+
+
+
+/* Kontak*/
+.list-group {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+}
+
+.sosmed:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.lokasi {
+    color: white;
+}
+
+.temukan {
+    padding-top: 20px;
+}
+
+/* Akhir Kontak */
+
+
+/* font */
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('font/alex/alexbrush-regular-webfont.woff2') format('woff2'),
+        url('font/alex/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mudah,
+.aman,
+.terpercaya {
+    font-size: 30px;
+    font-family: "alex_brushregular", arial;
+}
+
+@font-face {
+    font-family: 'chunkfive_printregular';
+    src: url('font/chunk/chunk_five_print-webfont.woff') format('woff2'),
+        url('font/chunk/chunk_five_print-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.yuk-donasi {
+    font-size: 30px;
+    font-family: "chunkfive_printregular", arial;
+}
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .nav-itemm {
+        text-transform: uppercase;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+    }
+
+    /* .nav-itemm:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #f7eeff;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    } */
+
+}
